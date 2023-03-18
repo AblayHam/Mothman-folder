@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    font-family: 'Inconsolata', monospace;
+    color: rgba(0, 255, 0, 1);
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: .5rem;
+}
+
+#output {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#output .user{
+    color: rgba(0, 255, 0, 1);
+    font-weight: bold;
+}
+
+#prompt {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+#prompt input {
+    display: block;
+}
